@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CirculoRadarRMPOA.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>index</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-49.68102462045599,-29.70203037229636,0 -49.59747052809144,-29.33944195421566,0 -50.00385834232372,-29.06186678660565,0 -50.44719831747164,-28.87031423637699,0 -51.06321644688281,-28.71796493123296,0 -51.48328110485649,-28.71786524187697,0 -51.90315631616328,-28.81053884809376,0 -52.22952075244332,-28.97695454385689,0 -52.43669995268403,-29.2026664706589,0 -52.62163381586617,-29.48928555148366,0 -52.70034477632007,-29.68291416661966,0 -52.76139205933416,-30.05680980704704,0 -52.72123113239025,-30.5245395004211,0 -52.43935779568383,-30.94234973013141,0 -51.9540934237462,-31.34046382351697,0 -51.47699830102651,-31.48778490765737,0 -50.93595186653715,-31.52991726860719,0 -49.68102462045599,-29.70203037229636,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
